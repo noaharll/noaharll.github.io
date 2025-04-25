@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Ariello Noah, étudiant en cybersécurité et informatique">
+    <title>Portfolio - Ariello Noah</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #a46877, #5a67d8);
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin-top: 0.5rem;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding-bottom: 2rem;
+        }
+        section {
+            padding: 2rem 0;
+        }
+
+        .about, .projects, .skills, .contact {
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            padding: 2rem;
+            border-radius: 8px;
+        }
+
+        .about{
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+        .project {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background-color:#dcdcc3;
+            border-radius: 8px;
+        }
+        .project img {
+            max-width: 150px;
+            border-radius: 8px;
+            margin:1rem;
+        }
+        footer {
+            text-align: center;
+            background-color: #333333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            .project {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .project img {
+                max-width: 100%;
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Portfolio Ariello Noah</h1>
+        <p>Étudiant en seconde au lycée Pierre Mendes France</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="about">
+            <h2>À propos de moi</h2>
+            <img src="image moi dessin.png" width="30%">
+            <p>
+                Bonjour, je suis Ariello Noah, étudiant de 15 ans au lycée 
+                Pierre Mendes France à Veynes. Je suis dans la section informatique 
+                et cybersécurité pour trois ans. J'ai déjà effectué deux stages dans ce domaine.
+            </p>
+        </section>
+
+
+
+
+        <section class="projects">
+            <h2>Mes stages</h2>
+            <div class="project">
+                <img src="logo_gamer.png" alt="Logo de La Cabane du Gamer à Gap">
+                <div>
+                    <h3>Stage 1</h3>
+                    <p>La Cabane du Gamer à Gap pendant 3 semaines.</p>
+                    <a href="https://www.lacabanedugamer.fr/">Voir l'entreprise</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="Logo_2.png" alt="Logo de Sun Valley System à Gap">
+                <div>
+                    <h3>Stage 2</h3>
+                    <p>Sun Valley System, pendant 3 semaines à Gap.</p>
+                    <a href="https://www.sun-valley-systems.fr/">Voir l'entreprise</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Mes compétences</h2>
+            <div class="project">
+                <img src="Logo carré Cybersecurity-fond blanc.jpg" alt="image">
+                <div>
+                    <h3>Compétences Techniques</h3>
+                    <ul>
+                        <li>Programmation : Initiation à Python</li>
+                        <li>Développement Web : HTML, CSS, JavaScript de base</li>
+                        <li>Cybersécurité : Concepts de base de protection des données et des systèmes</li>
+                        <li>Systèmes et Réseaux : Initiation aux systèmes d'exploitation et réseaux</li>
+                        <li>Bureautique : Utilisation avancée de Word, Excel, PowerPoint</li>
+                        <li>Analyse de données : Introduction à l’analyse de données avec Python et Excel</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Pour me contacter :</h2>
+            <p>Pour toute question ou pour en savoir plus sur moi, voici mes informations de contact :</p>
+            <ul>
+                <li>Email : ariello.noah@lpmendesfrance.com</li>
+                <li>Téléphone : 06 44 85 12 02</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Ariello Noah. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
